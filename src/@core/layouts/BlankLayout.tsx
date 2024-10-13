@@ -16,15 +16,16 @@ const BlankLayoutWrapper = styled(Box)<BoxProps>(({ theme }) => ({
     alignItems: 'center',
     justifyContent: 'center',
     padding: theme.spacing(5)
-  },
-
-  // For V2 Blank layout pages
-  '& .content-right': {
-    display: 'flex',
-    minHeight: '100vh',
-    overflowX: 'hidden',
-    position: 'relative'
   }
+  // },
+
+  // // For V2 Blank layout pages
+  // '& .content-right': {
+  //   display: 'flex',
+  //   minHeight: '100vh',
+  //   overflowX: 'hidden',
+  //   position: 'relative'
+  // }
 }))
 
 const BlankLayout = ({ children }: BlankLayoutProps) => {
